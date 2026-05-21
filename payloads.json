@@ -1,0 +1,13 @@
+{
+    "xss": [
+        "<script>alert('XSS1')</script>",
+        "\"><svg/onload=alert('XSS2')>",
+        "javascript:alert('XSS3');",
+        "'-alert('XSS4')-'"
+    ],
+    "sqli": [
+        "' OR 1=1--",
+        "\" OR \"\"=\"",
+        "' OR '1'='1"
+    ]
+}
